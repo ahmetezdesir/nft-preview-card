@@ -1,0 +1,164 @@
+body {
+    background-color: hsl(217, 54%, 11%);
+    text-align: center;
+    margin: 10px auto;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    color: white;
+    text-align: left;
+    margin-top: 30px;
+}
+
+h2:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+.nft-link {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    color: white;
+    text-align: left;
+    margin-top: 30px;
+    text-decoration: none;
+}
+
+.nft-link:hover {
+    color: hsl(178, 100%, 50%);
+    text-decoration: none;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: hsl(215, 51%, 70%);
+    text-align: left;
+    width: 90%;
+    margin-top: 30px;
+}
+
+hr {
+    width: 100%;
+    height: 1px;
+    border-width: 0;
+    background-color: rgb(189, 190, 192);
+    margin-top: 30px;
+}
+
+.frame {
+    position: relative;
+    background-color: hsl(216, 50%, 16%);
+    width: 24.5%;
+    margin: 0 auto;
+    border-radius: 3%;
+    padding: 25px;
+}
+
+.nft-img {
+    position: relative;
+    max-width: 350px;
+    max-height: 350px;
+    border-radius: 5%;
+    z-index: 3;
+}
+
+.nft-img:hover{
+    z-index: 2;
+    overflow: hidden;
+}
+
+
+.icon-img {
+    z-index: 2;
+    position: absolute;
+    top: 150px;
+    right: 150px;
+}
+
+.icon-div {
+    z-index: 2;
+    position: absolute;
+    height: 350px;
+    width: 350px;
+    top: 25px;
+    left: 26px;
+    border-radius: 5%;
+    background-color: rgba(0, 255, 255, 0.6);
+}
+
+.ether {
+    position: absolute;
+    left: 0;
+}
+
+.time {
+    position: absolute;
+    right: 75px;
+}
+
+.ether-text {
+    display: inline;
+    margin-left: 5px;
+}
+
+.time-text {
+    display: inline;
+    font-size: 14px;
+    margin-left: 32px;
+}
+
+.clock {
+    display: inline;
+    width: 30%;
+    position: absolute;
+    right: 0px;
+}
+
+.price {
+    width: 30%;
+    display: inline;
+    position: absolute;
+    left: 0;
+}
+
+.price-clock {
+    position: relative;
+    margin-top: 30px;
+    height: 18px;
+}
+
+.bottom-container {
+    position: relative;
+    height: 42px;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+.avatar-img {
+    float: left;
+    width: auto;
+    height: 40px;
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 50%;
+}
+
+.author {
+    position: absolute;
+    width: 70%;
+    margin-left: 60px;
+    margin-top: 13px;
+    font-size: 14px; 
+}
+
+.name {
+    color: white;
+    text-decoration: none;
+}
+
+.name:hover {
+    color: hsl(178, 100%, 50%);
+}
